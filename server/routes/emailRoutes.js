@@ -5,6 +5,6 @@ module.exports = app => {
   const email = require('../controllers/email.js');
 
   /**** EMAIL ROUTES ****/
-  app.route('/api/emails')
+  app.route('/emails')
     .post(email.add);
 };
