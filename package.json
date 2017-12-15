@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "send an email",
   "main": "./server/server.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "nodemon": "^1.12.7"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./server/server.js"
