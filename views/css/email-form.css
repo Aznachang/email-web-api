@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: #d3d3d3;
+  color: #485e74;
+  line-height: 1.5;
+  font-family: Geneva, Verdana, sans-serif;
+  padding: 1em;
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Padding for Email-Form-Box */
+.email-form-wrapper > * {
+  padding: 2em;
+}
+
+/* Set Email Form */
+.email {
+  background: #f9feff;
+}
+
+/** Specific Email Styling **/
+.email form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.email form label {
+  display: block;
+}
+
+.email form p {
+  margin:0;
+  text-align:left;
+}
+
+.email form .email-fields{
+  grid-column: 1 / 3;
+}
+
+button[type=submit] {
+  height: 50px; 
+  margin: 0 auto;
+} 
+
+.email form button, .email form input, .email form textarea{
+  width:100%;
+  padding:0.75em;
+  border:1px solid #c9e6ff;
+  font-size: 16px;
+}
+
+.email form button{
+  background:#c0deed;
+  text-transform: uppercase;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+}
+
+.email form button:hover,.email form button:focus{
+  background: green;
+  color:#fff;
+  outline:0;
+  transition: background-color 1s ease-out;
+  border-radius: 4px;
+}
