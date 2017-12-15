@@ -4,9 +4,7 @@
   "description": "send an email",
   "main": "./server/server.js",
   "dependencies": {
-    "nodemon": "^1.12.7"
-  },
-  "devDependencies": {
+    "nodemon": "^1.12.7",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
