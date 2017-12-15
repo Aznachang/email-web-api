@@ -3,7 +3,7 @@ const express = require('express'),
   bodyParser = require('body-parser'),
   path = require('path'),
   app = express(),
-  port = process.env.PORT || 3000;
+  port = process.env.PORT || 3001;
 
 /** Other NPM Libraries **/
 const exphbs = require('express-handlebars');
